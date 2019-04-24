@@ -1,0 +1,55 @@
+.container {
+    border: 10px solid hotpink;
+    box-shadow: 3px 3px 3px rgb(255, 14, 134);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-bottom: 80px;
+    padding-top: 0;
+}
+
+.btn {
+    display: inline-block;
+    margin: 6px;
+    font-size: inherit;
+    line-height: 1.42;
+    padding: 1.2em 1.6em;
+    font-weight: normal;
+    border-width: 3px;
+    border-style: solid;
+    background: transparent;
+    border-radius: 0.4em;
+    cursor: pointer;
+    font-family: "Booster Next FY", "Avenir Next", Avenir, sans-serif;
+    user-select: none;
+    vertical-align: bottom;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s, background-color 0.3s;
+    border-radius: 0.5em 0.6em/0.6em 1em 3em 1em;
+    color: #FF006A;
+    border-color: #FF006A;
+    box-shadow: 6px 0 0 0 #FF006A, 6px 6px 0 0 #FF006A, 0 6px 0 0 #FF006A;
+    outline: none;
+  }
+
+
+  .btn:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 8px 0 0 0 #FF006A, 8px 8px 0 0 #FF006A, 0 8px 0 0 #FF006A;
+}
+
+  .btn:active {
+    transition-duration: 0.1s;
+    transform: translate(4px, 4px);
+    background-color: #FF006A;
+    color: #E6EAEF;
+    box-shadow: 2px 0 0 0 #FF006A, 2px 2px 0 0 #FF006A, 0 2px 0 0 #FF006A;
+  }
+
+@media (min-width: 1000px) {
+    .container {
+        width: 50%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
